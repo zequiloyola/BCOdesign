@@ -1,0 +1,409 @@
+@charset "UTF-8";
+body {
+  background-image: url("../css/imagenes/pexels-terje-sollie-312029 (2).jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0; }
+
+.dropdown-menu {
+  background-color: transparent; }
+
+.dropdown-item {
+  color: white; }
+
+footer {
+  bottom: -5px; }
+
+/* Index */
+.indexTitle {
+  color: whitesmoke;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 0px;
+  height: 250px;
+  font-size: 50px;
+  font-family: helvética;
+  max-width: 100%; }
+
+.indexSubtitle {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 35px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; }
+
+.card__fondo {
+  background-color: rgba(0, 0, 0, 0.623);
+  background-repeat: no-repeat;
+  background-size: 100vw; }
+
+.cardtitle {
+  font-weight: 700;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 33px;
+  color: white;
+  font-family: Arial, Helvetica, serif; }
+
+.cardparagraph {
+  text-align: center;
+  font-weight: 250;
+  font-size: 15px;
+  color: white; }
+
+.cardContainer {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  gap: 30px;
+  padding-top: 50; }
+
+.cardContainer .card {
+  width: 230px;
+  height: 290px;
+  border-right: 8px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 40px;
+  text-align: center;
+  transition: all 0.25s;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.2); }
+
+.cardContainer .card:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 12px 16px rgba(36, 36, 36, 0.3); }
+
+.cardContainer.card img {
+  width: 3rem;
+  height: 2rem; }
+
+.cardContainer .card h4 {
+  font-weight: 600; }
+
+.indexIcon {
+  height: 110px;
+  width: 110px;
+  margin: auto; }
+
+.index__uppage {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 80px;
+  justify-content: center;
+  gap: 120px;
+  padding-top: 100px; }
+
+.uppagephoto {
+  bottom: 10px;
+  right: 0px;
+  transition: all 300ms;
+  width: 375px;
+  width: 400px;
+  animation: move_vector 6s ease-in-out infinite; }
+
+@keyframes move_vector {
+  0% {
+    transform: translateY(10px); }
+  25% {
+    transform: translateY(-10px); }
+  100% {
+    transform: translateY(10px); } }
+
+.button__container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 140px;
+  gap: 45px; }
+
+.index__button {
+  background: linear-gradient(102deg, #d1d1d1 40%, #f3dfdf 60%);
+  color: #000000;
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  min-width: 200px;
+  text-decoration: none;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.5);
+  animation: pulse 1.5s infinite;
+  font-weight: 700; }
+
+.index__button a {
+  text-decoration: none;
+  color: black; }
+
+.index__button a:hover {
+  color: #5e5e5e; }
+
+.carousel__separator h4 {
+  color: white;
+  text-align: center;
+  margin: 250px;
+  font-size: 80px;
+  font-weight: 1400;
+  text-indent: 0px;
+  font-family: monospace; }
+
+.downarrow img {
+  display: flex;
+  margin: 0px auto 50px;
+  height: 25px;
+  width: 25px; }
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.99);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1); }
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 25px rgba(255, 255, 255, 0); }
+  100% {
+    transform: scale(0.99);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0); } }
+
+@media (max-width: 768px) {
+  .firstbanner {
+    margin: auto; }
+  .index__uppage {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 1px;
+    margin: auto; }
+  .carousel__separator h4 {
+    margin: auto;
+    width: 100%;
+    font-size: 45px;
+    font-weight: 900; }
+  .button__container {
+    width: 70%;
+    margin-left: 15%; } }
+
+@media (min-width: 768px) {
+  .index__uppage {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 1px;
+    margin: auto; } }
+
+@media (min-width: 576px) {
+  .cardContainer {
+    flex-wrap: nowrap; }
+    .cardContainer .indexTitle {
+      margin-top: 0px;
+      padding-top: 0px; } }
+
+@media (max-width: 575.98px) {
+  .indexTitle {
+    margin-top: 10px; }
+  .indexTitle img {
+    width: 100%;
+    max-width: 100%; }
+  .firstbanner {
+    margin: auto;
+    width: 100%; }
+  .uppagephoto {
+    display: none; }
+  .uppagephoto {
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    margin-bottom: 10px;
+    margin-top: -50px; } }
+
+/* BUSTAMANTEco */
+.basicinfo__text {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
+  margin-left: 5px;
+  font-size: 17px;
+  width: 50%;
+  align-items: center;
+  justify-items: center;
+  justify-content: center; }
+
+.basicinfo__container {
+  display: flex;
+  width: 100%; }
+
+/* PUNTO HOTEL */
+.galeria__title {
+  color: white;
+  text-align: center; }
+
+.galeria__imagenes {
+  width: 90%;
+  margin: auto;
+  list-style: none;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.galeria__imagenes li {
+  margin: 5px;
+  overflow: hidden;
+  border: 1px white solid; }
+
+.galeria__imagenes img {
+  width: 300px;
+  height: 300px;
+  border: 1px solid white; }
+
+/*modal */
+.galeria__modal {
+  visibility: hidden;
+  opacity: 0; }
+
+.galeria__modal:target {
+  visibility: visible;
+  opacity: 1;
+  transition: all 1s;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+.galeria__modal--title {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  margin: 15px 0; }
+
+.imagen1 {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.imagen1 a {
+  color: white;
+  font-size: 40px;
+  text-decoration: none;
+  margin: 0 10px; }
+
+.imagen1 a:nth-child(2) {
+  margin: 0;
+  height: 100%;
+  flex-shrink: 2; }
+
+.imagen1 img {
+  width: 80%px;
+  height: 120%;
+  max-width: 100%;
+  border: 1px solid;
+  box-sizing: border-box; }
+
+.cierre {
+  display: block;
+  width: 25px;
+  height: 25px;
+  margin: auto;
+  margin-top: 100px;
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+  padding: 0;
+  border-radius: 15px;
+  line-height: 25px; }
+
+.cierre:hover {
+  text-decoration: none;
+  color: black; }
+
+.banner {
+  width: 800px;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border: 0.5px solid white;
+  max-width: 100%; }
+
+.banner:target {
+  visibility: visible;
+  opacity: 1;
+  transition: all 1s;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+ul li a img:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+  transition: 1s; }
+
+/* Contact*/
+.formRegister {
+  box-sizing: border-box;
+  width: 25%;
+  background-color: rgba(0, 0, 0, 0.45);
+  padding: 15px 20px;
+  margin-top: 10px;
+  margin-left: 37.5%;
+  border-radius: 20px;
+  color: white; }
+
+input,
+textarea {
+  box-sizing: border-box;
+  width: 100%;
+  border: none; }
+
+textarea {
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%;
+  margin-bottom: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px; }
+
+.formRegister__areaDeTexto {
+  margin-bottom: 3px; }
+
+.option {
+  padding: 10px;
+  margin-bottom: 5px;
+  margin-top: 5px; }
+
+.botons {
+  background-color: #555252;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px; }
+
+.mapLocation {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+@media (max-width: 575.98px) {
+  .formRegister {
+    width: 90%;
+    max-width: 90%;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto; }
+  iframe {
+    width: 95%;
+    max-width: 95%;
+    height: 280px;
+    margin-top: 0px; } }
