@@ -145,7 +145,7 @@ footer {
   text-align: center;
   margin: 250px;
   font-size: 80px;
-  font-weight: 1400;
+  font-weight: 900;
   text-indent: 0px;
   font-family: monospace; }
 
@@ -154,6 +154,10 @@ footer {
   margin: 0px auto 50px;
   height: 25px;
   width: 25px; }
+
+.animado {
+  opacity: 0;
+  transition: all 1s; }
 
 @keyframes pulse {
   0% {
@@ -180,8 +184,13 @@ footer {
     width: 100%;
     font-size: 45px;
     font-weight: 900; }
+  .index__button {
+    justify-content: center;
+    align-items: center; }
   .button__container {
     width: 70%;
+    justify-content: center;
+    gap: 3px;
     margin-left: 15%; } }
 
 @media (min-width: 768px) {
@@ -215,7 +224,11 @@ footer {
     flex-wrap: wrap;
     width: 85%;
     margin-bottom: 10px;
-    margin-top: -50px; } }
+    margin-top: -50px; }
+  .carousel img {
+    height: 450px; }
+  .carousel ul li {
+    margin-bottom: -10px; } }
 
 /* BUSTAMANTEco */
 .basicinfo__text {
