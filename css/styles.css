@@ -396,7 +396,18 @@ ul li a img:hover {
 @media (max-width: 575.98px) {
   .banner {
     height: 300px;
-    width: 300px; } }
+    width: 300px; }
+  .galeria__modal {
+    position: absolute;
+    top: -100%; }
+  .galeria__modal:target {
+    transition: all 1s;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; } }
 
 /* Contact*/
 .formRegister {
