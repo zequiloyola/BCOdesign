@@ -15,12 +15,6 @@ body {
 footer {
   bottom: -5px; }
 
-@media (max-width: 575.98px) {
-  body {
-    background-image: url("../css/imagenes/pexels-john-lee-6766628 (1).jpg");
-    background-size: cover;
-    background-attachment: fixed; } }
-
 /* Index */
 .indexTitle {
   color: whitesmoke;
