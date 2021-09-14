@@ -402,7 +402,7 @@ ul li a img:hover {
 .formRegister {
   box-sizing: border-box;
   width: 25%;
-  background-image: url("/css/imagenes/3876.jpg");
+  background-image: url("../css/imagenes/3876.jpg");
   padding: 15px 20px;
   margin-top: 10px;
   margin-left: 37.5%;
