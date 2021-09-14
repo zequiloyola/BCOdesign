@@ -399,7 +399,7 @@ ul li a img:hover {
     width: 300px; }
   .galeria__modal {
     position: absolute;
-    top: -100%; }
+    top: -300%; }
   .galeria__modal:target {
     transition: all 1s;
     position: fixed;
