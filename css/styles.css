@@ -332,6 +332,10 @@ main .bcotitle {
     font-size: 13px;
     font-weight: 500;
     padding: 10px; }
+  .basicinfo__lowercontainer {
+    grid-gap: 1px;
+    overflow: hidden;
+    margin-bottom: 10px; }
   .basicinfo__bannercontainer {
     padding: 30px;
     margin-bottom: -100px;
