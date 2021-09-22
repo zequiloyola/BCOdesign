@@ -395,8 +395,6 @@ footer {
     flex-direction: column; }
   .midcards .info p {
     width: 100%; }
-  .midcards img {
-    display: none; }
   .basicinfo__lowercontainer {
     grid-gap: 1px;
     overflow: hidden;
