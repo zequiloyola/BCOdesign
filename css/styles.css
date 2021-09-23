@@ -266,7 +266,6 @@ footer {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
-  margin-top: 350px;
   backface-visibility: hidden; }
 
 .basicinfo__lowercontainer div {
@@ -358,30 +357,39 @@ footer {
   width: 70px;
   margin-bottom: 200px; }
 
-.midcards {
+.cartulinaContainer {
   display: flex;
-  padding-top: 15px;
-  padding-bottom: 15px; }
+  width: 98%;
+  padding-bottom: 200px; }
 
-.info {
+.cartulina {
+  width: 25%;
+  height: 150px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column; }
+
+.cartulina img {
+  width: 80%;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+  height: 230px;
+  margin-bottom: 40px; }
+
+.cartulina p {
   color: white;
   text-align: center;
-  width: 23%;
-  margin: auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
   font-size: 24px;
   font-weight: 300;
-  padding-top: 30px;
   border-top: 1px solid #ffffff;
   border-bottom: 1px solid #ffffff;
-  font-family: poppins; }
-
-.midcards img {
-  width: 25%;
-  height: 175px;
-  margin-bottom: 90px; }
-
-.midcards {
-  background-color: rgba(0, 0, 0, 0.2); }
+  font-family: poppins;
+  margin-left: 3%;
+  margin-right: 3%; }
 
 @media (max-width: 575.98px) {
   .basicinfo__lowercontainer p {
@@ -418,6 +426,27 @@ footer {
     font-weight: 350; }
   .basicinfo__container .logotipopsd2 {
     display: none; } }
+
+@media (max-width: 768px) {
+  .cartulinaContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%; }
+  .cartulina {
+    width: 50%;
+    margin-bottom: 500px; }
+  .cartulina p {
+    font-size: 18px; } }
+
+@media (max-width: 575.98px) {
+  .cartulinaContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%; }
+  .cartulina {
+    width: 100%; }
+  .cartulina img {
+    margin-left: 50px; } }
 
 /* PUNTO HOTEL */
 .galeria__title {
