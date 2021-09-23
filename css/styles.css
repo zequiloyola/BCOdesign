@@ -440,14 +440,24 @@ footer {
     font-size: 18px; } }
 
 @media (max-width: 575.98px) {
+  body {
+    background-size: cover;
+    background-attachment: fixed; }
   .cartulinaContainer {
     display: flex;
     flex-wrap: wrap;
     width: 100%; }
   .cartulina {
-    width: 100%; }
+    width: 100%;
+    margin-bottom: 120px; }
   .cartulina img {
-    margin-left: 50px; } }
+    margin-left: 50px; }
+  .basicinfo__lowercontainer {
+    margin-top: 175px; }
+  .basicinfo__lowercontainer div {
+    width: 100%;
+    background-position: center;
+    background-size: auto; } }
 
 /* PUNTO HOTEL */
 .galeria__title {
