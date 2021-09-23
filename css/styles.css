@@ -365,7 +365,8 @@ footer {
 .cartulina {
   width: 25%;
   height: 150px;
-  margin-bottom: 20px;
+  margin-bottom: 900px;
+  margin-top: 200px;
   display: flex;
   flex-direction: column; }
 
