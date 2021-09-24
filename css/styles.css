@@ -6,10 +6,14 @@ body {
   margin: 0;
   padding: 0; }
 
-.dropdown-menu {
+#collapsibleNavbar {
+  justify-content: flex-end;
+  font-size: 18px; }
+
+div .dropdown-menu {
   background-color: transparent; }
 
-.dropdown-item {
+div .dropdown-item {
   color: white; }
 
 footer {
