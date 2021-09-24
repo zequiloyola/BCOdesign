@@ -17,7 +17,7 @@ footer {
 
 @media (max-width: 575.98px) {
   body {
-    background-image: url("../css/imagenes/pexels-john-lee-6766628 (1).jpg");
+    background-image: url("../css/imagenes/mobilebackground.png");
     background-size: cover;
     background-attachment: fixed; } }
 
@@ -459,7 +459,11 @@ footer {
     background-attachment: fixed; }
   .bg2 {
     background: url("../css/imagenes/refumobile.png");
-    background-attachment: fixed; } }
+    background-attachment: fixed; }
+  .basicinfo__lowercontainer {
+    grid-gap: 3px; }
+  .midarrow {
+    margin-top: 150px; } }
 
 /* PUNTO HOTEL */
 .galeria__title {
