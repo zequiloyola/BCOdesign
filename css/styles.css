@@ -454,10 +454,12 @@ footer {
     margin-left: 50px; }
   .basicinfo__lowercontainer {
     margin-top: 175px; }
-  .basicinfo__lowercontainer div {
-    width: 100%;
-    background-position: center;
-    background-size: auto; } }
+  .bg1 {
+    background: url("../css/imagenes/refumobile.png");
+    background-attachment: fixed; }
+  .bg2 {
+    background: url("../css/imagenes/refumobile.png");
+    background-attachment: fixed; } }
 
 /* PUNTO HOTEL */
 .galeria__title {
