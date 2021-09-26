@@ -8,7 +8,8 @@ body {
 
 #collapsibleNavbar {
   justify-content: flex-end;
-  font-size: 18px; }
+  font-size: 19px;
+  font-weight: 100; }
 
 div .dropdown-menu {
   background-color: transparent; }
@@ -368,7 +369,6 @@ footer {
 
 .cartulina {
   width: 25%;
-  height: 150px;
   margin-bottom: 900px;
   margin-top: 200px;
   display: flex;
@@ -388,10 +388,9 @@ footer {
   text-align: center;
   padding-top: 25px;
   padding-bottom: 25px;
-  font-size: 24px;
+  font-size: 23px;
   font-weight: 300;
   border-top: 1px solid #ffffff;
-  border-bottom: 1px solid #ffffff;
   font-family: poppins;
   margin-left: 3%;
   margin-right: 3%; }
@@ -403,11 +402,6 @@ footer {
     padding: 10px; }
   .downrightsquare {
     margin-top: 100px; }
-  .midcards {
-    display: flex;
-    flex-direction: column; }
-  .midcards .info p {
-    width: 100%; }
   .basicinfo__lowercontainer {
     grid-gap: 1px;
     overflow: hidden;
