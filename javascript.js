@@ -12,3 +12,5 @@ function mostrarScroll () {
 
 window.addEventListener('scroll', mostrarScroll);
 
+
+ScrollReveal().reveal('.efecto', { delay: 600 });
